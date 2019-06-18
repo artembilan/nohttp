@@ -1,1 +1,2 @@
-This has an https:// url https://example.com Try changing to http://
+This has an https:// url http://example.com Try changing to http://
+http://foo.com

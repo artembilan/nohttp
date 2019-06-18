@@ -21,3 +21,8 @@ plugins {
 repositories {
 	mavenCentral()
 }
+
+	nohttp {
+		whitelistFile = file('src/checkstyle/whitelist.lines') // FAIL
+//	    whitelistFile = file('src/whitelist.lines') // PASS
+	}
